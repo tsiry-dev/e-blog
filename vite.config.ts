@@ -25,7 +25,17 @@ export default defineConfig({
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './resources/js'),
+            '&': path.resolve(__dirname, './resources/'),
             'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
+        },
+    },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                additionalData: `
+                   @import "&/scss/main.scss";
+                `,
+            },
         },
     },
 });

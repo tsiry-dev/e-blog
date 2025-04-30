@@ -1,0 +1,30 @@
+.btn-primary {
+    background: $color-secondary;
+    color: $color-white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background: $color-secondary;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-subtitle {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 1rem;
+}
+
+.para {
+    font-family: monospace;
+    font-size: 1rem;
+}
